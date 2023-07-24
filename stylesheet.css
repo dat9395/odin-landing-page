@@ -1,0 +1,72 @@
+* {
+    border-style: solid;
+    border-width: thin;
+}
+
+body {
+    min-height: 100vh;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styles for main container */
+
+.main-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container > div {
+    flex: 1;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero > div {
+    flex: 1;
+}
+
+
+/* Styles for header and footer */
+
+.header,
+.footer {
+    background-color: #1F2937;
+    height: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo-text {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header ul {
+    list-style-type: none;
+    font-size: 18px;
+    display: flex;
+}
+
+.header ul a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.footer {
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
