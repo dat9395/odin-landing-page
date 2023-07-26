@@ -82,7 +82,7 @@ main > section {
 .info {
     display: flex;
     flex-direction: column;
-    padding: 40px 20%;
+    padding: 40px 20% 100px;
 }
 
 .info-header {
@@ -124,6 +124,27 @@ main > section {
 .card-text {
     color: #1F2937;
     padding-top: 10px;
+    font-weight: 300;
+}
+
+/* Styles for quote section */
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px 20% 80px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 200;
+}
+
+.quote-author {
+    font-weight: 800;
+    font-size: 20px;
+    text-align: end;
 }
 
 /* Styles for header and footer */
