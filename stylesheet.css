@@ -18,6 +18,15 @@ main > section {
     padding: 0 15%;
 }
 
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    height: 30px;
+    width: 120px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
 /* Styles for main container */
 
 main {
@@ -32,7 +41,7 @@ main > section {
 
 /* Styles for hero section */
 
-.hero {
+section.hero {
     display: flex;
     background-color: #1F2937;
     gap: 50px;
@@ -67,19 +76,13 @@ main > section {
 }
 
 .hero button {
-    background-color: #3882F6;
-    color: #F9FAF8;
-    height: 30px;
-    width: 120px;
-    border-radius: 8px;
-    font-weight: bold;
     flex-shrink: 0;
     margin-top: 10px;
 }
 
 /* Styles for info section */
 
-.info {
+section.info {
     display: flex;
     flex-direction: column;
     padding: 40px 20% 100px;
@@ -129,7 +132,7 @@ main > section {
 
 /* Styles for quote section */
 
-.quote {
+section.quote {
     background-color: #E5E7EB;
     padding: 100px 20% 80px;
 }
@@ -145,6 +148,36 @@ main > section {
     font-weight: 800;
     font-size: 20px;
     text-align: end;
+}
+
+/* Styles for action section */
+
+section.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.action-box {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 30px 80px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.action-box-text-header {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.action-box button {
+    border-color: #F9FAF8;
+    border-width: 2px;
 }
 
 /* Styles for header and footer */
